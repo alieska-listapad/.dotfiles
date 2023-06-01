@@ -4,6 +4,7 @@ cask 'vlc'
 cask 'spotify'
 cask 'alacritty'
 cask 'telegram'
+cask 'protonvpn'
 
 
 
