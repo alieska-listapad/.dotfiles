@@ -1,0 +1,16 @@
+cask_args appdir: '~/Applications'
+
+cask 'vlc'
+cask 'spotify'
+cask 'alacritty'
+cask 'telegram'
+
+
+
+# Shared across machine users
+
+cask 'qbittorrent', args: { appdir: '/Applications' }
+cask 'maintenance', args: { appdir: '/Applications' }
+
+brew 'nvm'
+brew 'tmux'

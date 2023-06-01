@@ -1,0 +1,6 @@
+[core]
+	excludesfile = ~/.gitignore_global
+[user]
+	name = Aliaksei
+	username = Niamkovich
+        email = aliaksei.niamkovich@gmail.com
