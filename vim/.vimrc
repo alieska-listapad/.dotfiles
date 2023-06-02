@@ -1,6 +1,7 @@
 syntax on
 
 set number
+set nowrap
 set hlsearch
 set ignorecase
 set incsearch
