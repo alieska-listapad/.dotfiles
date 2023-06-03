@@ -5,13 +5,16 @@ cask 'spotify'
 cask 'alacritty'
 cask 'telegram'
 cask 'protonvpn'
+cask 'google-chrome'
+cask 'obsidian'
 
-
-
-# Shared across machine users
+# --- Shared across machine users
 
 cask 'qbittorrent', args: { appdir: '/Applications' }
 cask 'maintenance', args: { appdir: '/Applications' }
 
+# --- Brews
+
 brew 'nvm'
 brew 'tmux'
+brew 'nvim'
