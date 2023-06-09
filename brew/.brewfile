@@ -20,3 +20,6 @@ cask 'maintenance', args: { appdir: '/Applications' }
 brew 'nvm'
 brew 'tmux'
 brew 'nvim'
+brew 'mas'
+
+mas 'Xcode', id: 497799835
