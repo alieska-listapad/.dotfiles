@@ -26,5 +26,6 @@ brew 'watchman'
 brew 'rbenv'
 brew 'ruby-build'
 brew 'nmap'
+brew 'yarn'
 
 mas 'Xcode', id: 497799835
