@@ -1,3 +1,5 @@
+tap 'homebrew/cask-versions'
+
 cask_args appdir: '~/Applications'
 
 cask 'vlc'
@@ -11,6 +13,7 @@ cask 'figma'
 cask 'visual-studio-code'
 cask 'flipper'
 cask 'deepl'
+cask 'zulu11'
 
 # --- Shared across machine users
 
