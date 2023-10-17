@@ -39,5 +39,7 @@ brew 'htop'
 brew 'flyctl'
 brew 'zsh-autosuggestions'
 brew 'fzf'
+brew 'doctl'
+brew 'pass'
 
 mas 'Xcode', id: 497799835

@@ -76,6 +76,7 @@ plugins=(
   compleat
   nvm
   z
+  pass
 )
 
 source $ZSH/oh-my-zsh.sh
