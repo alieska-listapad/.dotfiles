@@ -2,6 +2,7 @@
 
 echo 'Set gpg'
 
-echo $(dirname $0)
+current_dir=$(dirname $0)
 
-echo $current_dir
+
+echo 'Ok'

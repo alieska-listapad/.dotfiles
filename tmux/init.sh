@@ -1,1 +1,7 @@
-ln -sfv $(readlink -f ./tmux/.tmux.conf) "$HOME/.tmux.conf"
+echo 'Set Tmux'
+
+current_dir=$(dirname $0)
+
+ln -sfv $(readlink -f $current_dir/.tmux.conf) "$HOME/.tmux.conf"
+
+echo 'Ok'
