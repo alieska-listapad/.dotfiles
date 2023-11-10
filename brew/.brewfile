@@ -18,6 +18,8 @@ cask 'zulu11'
 cask 'insomnia'
 cask 'zoom'
 cask 'docker'
+cask 'slack'
+cask 'discord'
 
 # --- Shared across machine users
 
