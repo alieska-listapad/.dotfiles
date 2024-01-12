@@ -9,6 +9,15 @@ export NVM_DIR="$HOME/.nvm"
 # RBENV
 export PATH="$HOME/.rbenv/shims:$PATH"
 
+# JENV
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+# PYENV
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 # ANDROID
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
@@ -16,3 +25,4 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # GPG
 export GPG_TTY=$(tty)
+
