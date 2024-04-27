@@ -80,9 +80,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source $ZSH/plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="bold"
 
 # User configuration
 
