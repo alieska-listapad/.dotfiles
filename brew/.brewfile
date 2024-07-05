@@ -1,5 +1,6 @@
 tap 'homebrew/cask-versions'
 tap 'jorgelbg/tap'
+tap 'facebook/fb'
 
 cask_args appdir: '~/Applications'
 
@@ -15,7 +16,6 @@ cask 'insomnia'
 cask 'docker'
 cask 'slack'
 cask 'discord'
-cask 'qmk-toolbox'
 
 # --- Shared across machine users
 
@@ -32,7 +32,6 @@ brew 'watchman'
 brew 'rbenv'
 brew 'ruby-build'
 brew 'nmap'
-brew 'yarn'
 brew 'ios-deploy'
 brew 'htop'
 brew 'flyctl'
@@ -40,5 +39,6 @@ brew 'zsh-autosuggestions'
 brew 'fzf'
 brew 'doctl'
 brew 'gnupg'
+brew 'facebook/fb/idb-companion'
 
 mas 'Xcode', id: 497799835

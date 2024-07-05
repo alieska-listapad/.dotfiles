@@ -15,8 +15,8 @@ size = 12
 # family = "Ubuntu Mono"
 
 [window]
-decorations = "buttonless"
-startup_mode = "Maximized"
+decorations = "None"
+startup_mode = "SimpleFullscreen"
 dynamic_padding = true
 opacity = 0.9
 

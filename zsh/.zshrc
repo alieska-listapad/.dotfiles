@@ -4,6 +4,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Maestro testing
+export PATH=$PATH:$HOME/.maestro/bin
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -41,7 +44,7 @@ ZSH_THEME="refined"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -76,11 +79,24 @@ plugins=(
   nvm
   z
   pass
+	tmux
+	vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
 source $ZSH/plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh
 
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# VI_MODE plugin:
+export VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
+
+export VI_MODE_CURSOR_NORMAL=3
+export VI_MODE_CURSOR_VISUAL=4
+
+export VI_MODE_SET_CURSOR=true
+
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="bold"
 
 # User configuration
 
