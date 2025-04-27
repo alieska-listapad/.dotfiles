@@ -17,14 +17,13 @@ cask 'slack'
 cask 'discord'
 cask 'cursor'
 cask 'utm'
-cask 'nrf-connect'
-cask 'segger-jlink'
 cask 'obs'
 cask 'zulu@21'
 cask 'zulu@8'
-cask 'vmware-fusion'
 cask 'iterm2'
 cask 'calibre'
+cask 'chatgpt'
+cask 'firefox@developer-edition'
 
 # --- Shared across machine users
 
@@ -54,5 +53,6 @@ brew 'gnupg'
 brew 'facebook/fb/idb-companion'
 brew 'apktool' # unzip and decompile android apk
 brew 'jadx' # lool up inside android apk. jadx-gui available after installation
+brew 'httpie'
 
-mas 'Xcode', id: 497799835
+# mas 'Xcode', id: 497799835
