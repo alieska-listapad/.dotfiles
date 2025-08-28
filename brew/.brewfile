@@ -4,7 +4,6 @@ tap 'facebook/fb'
 cask_args appdir: '~/Applications'
 
 cask 'vlc'
-cask 'spotify'
 cask 'alacritty'
 cask 'telegram'
 cask 'google-chrome'
@@ -12,18 +11,13 @@ cask 'obsidian'
 cask 'figma'
 cask 'visual-studio-code'
 cask 'insomnia'
-cask 'docker'
 cask 'slack'
 cask 'discord'
 cask 'cursor'
-cask 'utm'
-cask 'obs'
-cask 'zulu@21'
-cask 'zulu@8'
+cask 'zulu@17'
 cask 'calibre'
 cask 'chatgpt'
-cask 'firefox@developer-edition'
-cask 'android-studio'
+cask 'openvpn-connect'
 
 # --- Shared across machine users
 
@@ -55,5 +49,9 @@ brew 'apktool' # unzip and decompile android apk
 brew 'jadx' # lool up inside android apk. jadx-gui available after installation
 brew 'httpie'
 brew 'ipmitool'
+brew 'scrcpy'
+brew 'unar'
+brew 'yarn'
+brew 'git-flow'
 
 # mas 'Xcode', id: 497799835
