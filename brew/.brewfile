@@ -18,6 +18,8 @@ cask 'zulu@17'
 cask 'calibre'
 cask 'chatgpt'
 cask 'openvpn-connect'
+cask 'kitty'
+cask 'icon-composer'
 
 # --- Shared across machine users
 
@@ -53,5 +55,6 @@ brew 'scrcpy'
 brew 'unar'
 brew 'yarn'
 brew 'git-flow'
+brew 'neofetch'
 
 # mas 'Xcode', id: 497799835
