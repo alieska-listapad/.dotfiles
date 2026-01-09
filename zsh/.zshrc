@@ -13,6 +13,10 @@ export PATH=$PATH:$HOME/.maestro/bin
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="amuse"
 
+autoload -U promptinit; promptinit
+prompt typewritten
+TYPEWRITTEN_PROMPT_LAYOUT="pure"
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -79,7 +83,6 @@ plugins=(
   nvm
   z
   pass
-	tmux
 	vi-mode
 )
 

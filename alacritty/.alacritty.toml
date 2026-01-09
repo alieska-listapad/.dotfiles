@@ -1,6 +1,6 @@
 [general]
 import = [
-    "~/.dotfiles/alacritty/github_light.toml"
+    "~/.dotfiles/alacritty/github_dark_dimmed.toml"
 ]
 
 [colors]
@@ -10,10 +10,11 @@ draw_bold_text_with_bright_colors = true
 TERM = "xterm-256color"
 
 [font]
-size = 15
+
+size = 12
 
 [font.normal]
-family = "Ubuntu Mono"
+family = "0xProto Nerd Font"
 
 [window]
 decorations = "Buttonless"
@@ -22,8 +23,8 @@ dynamic_padding = true
 opacity = 1
 
 [window.padding]
-x = 16
-y = 16
+x = 10
+y = 10
 
 [[hints.enabled]]
 mouse.enabled = true
@@ -34,3 +35,19 @@ hyperlinks = true
 [cursor]
 thickness = 0.3
 blink_interval = 200
+
+[cursor.style]
+blinking = "Always"
+shape = "Block"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+#[font.normal]
+#family = "Hack Nerd Font"
+#style = "Regular"
+
+[scrolling]
+history = 15000
+

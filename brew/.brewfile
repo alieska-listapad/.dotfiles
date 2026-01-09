@@ -13,13 +13,13 @@ cask 'visual-studio-code'
 cask 'insomnia'
 cask 'slack'
 cask 'discord'
-cask 'cursor'
 cask 'zulu@17'
 cask 'calibre'
 cask 'chatgpt'
-cask 'openvpn-connect'
-cask 'kitty'
 cask 'icon-composer'
+cask 'chatgpt'
+cask 'claude'
+cask 'font-0xproto-nerd-font'
 
 # --- Shared across machine users
 
@@ -53,8 +53,9 @@ brew 'httpie'
 brew 'ipmitool'
 brew 'scrcpy'
 brew 'unar'
-brew 'yarn'
 brew 'git-flow'
 brew 'neofetch'
+brew 'pnpm'
+brew 'typewritten'
 
 # mas 'Xcode', id: 497799835
