@@ -1,5 +1,6 @@
 tap 'jorgelbg/tap'
 tap 'facebook/fb'
+tap 'wix/brew'
 
 cask_args appdir: '~/Applications'
 
@@ -20,6 +21,7 @@ cask 'icon-composer'
 cask 'chatgpt'
 cask 'font-0xproto-nerd-font'
 cask 'ghostty'
+cask 'claude-code'
 
 # --- Shared across machine users
 
@@ -56,5 +58,9 @@ brew 'neofetch'
 brew 'pnpm'
 brew 'typewritten'
 brew 'git-split-diffs'
+brew 'ripgrep'
+brew 'fd'
+brew 'unzip'
+brew 'wix/brew/applesimutils'
 
 # mas 'Xcode', id: 497799835
