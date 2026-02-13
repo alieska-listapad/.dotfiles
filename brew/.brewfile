@@ -1,13 +1,13 @@
 tap 'jorgelbg/tap'
 tap 'facebook/fb'
 tap 'wix/brew'
+tap 'anomalyco/tap'
 
 cask_args appdir: '~/Applications'
 
 cask 'vlc'
 cask 'alacritty'
 cask 'telegram'
-cask 'google-chrome'
 cask 'obsidian'
 cask 'figma'
 cask 'visual-studio-code'
@@ -62,5 +62,6 @@ brew 'ripgrep'
 brew 'fd'
 brew 'unzip'
 brew 'wix/brew/applesimutils'
+brew 'anomalyco/tap/opencode'
 
 # mas 'Xcode', id: 497799835
